@@ -14,7 +14,10 @@ sudo usermod -aG docker $USER
 
 newgrp docker
 
-sudo apt install awscli -y
+sudo apt install awscli -y # maynot work, use below cmd
+sudo snap install aws-cli --classic
+
+aws --version
 
 
 
